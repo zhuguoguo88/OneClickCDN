@@ -2,7 +2,7 @@
 #################################################################
 #    One-click CDN Installation Script v0.1.0                   #
 #    Written by shc (https://qing.su)                           #
-#    Github link: https://github.com/Har-Kuun/OneClickCDN       #
+#    Github link: https://github.com/patch-1/OneClickCDN       #
 #    Contact me: https://t.me/hsun94   E-mail: hi@qing.su       #
 #                                                               #
 #    This script is distributed in the hope that it will be     #
@@ -157,7 +157,7 @@ function install_TS
 		echo 
 		say "依赖环境缺失。" red
 		echo "请核查日志，安装缺失的依赖环境，然后再次运行此脚本。"
-		echo "您也可以在这里https://github.com/Har-Kuun/OneClickCDN/issues报告此问题并贴出您的报错日志，以便我改进此脚本。"
+		echo "您也可以在这里https://github.com/patch-1/OneClickCDN/issues报告此问题并贴出您的报错日志，以便我改进此脚本。"
 		echo "感谢！"
 		echo 
 		exit 1
@@ -172,7 +172,7 @@ function install_TS
 		echo
 		say "Traffic Server 安装失败。" red
 		echo "请检查上面的日志报错信息。"
-		echo "您也可以在这里https://github.com/Har-Kuun/OneClickCDN/issues报告此问题并贴出您的报错日志，以便我改进此脚本。"
+		echo "您也可以在这里https://github.com/patch-1/OneClickCDN/issues报告此问题并贴出您的报错日志，以便我改进此脚本。"
 		echo "感谢！"
 		echo
 		exit 1
@@ -616,7 +616,7 @@ function display_license
 	echo '*       One-click CDN installation script                         *'
 	echo '*       Version 0.1.0                                             *'
 	echo '*       Author: shc (Har-Kuun) https://qing.su                    *'
-	echo '*       https://github.com/Har-Kuun/OneClickCDN                   *'
+	echo '*       https://github.com/patch-1/OneClickCDN                   *'
 	echo '*       Thank you for using this script.  E-mail: hi@qing.su      *'
 	echo '*******************************************************************'
 }
